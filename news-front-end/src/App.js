@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>This is a news Applications</h1>
+      <div data-test="component-app">
+        <h1 data-test="title-header">This is a news Application</h1>
+      </div>
     </div>
   );
 }
