@@ -10,7 +10,7 @@ class NewsContainer extends Component {
   }
 
   componentDidMount(){
-    fetch(`https://api.nytimes.com/svc/archive/v1/2019/1.json?api-key=${process.env.REACT_APP_NEWS_API_KEY}`)
+    fetch(`https://api.nytimes.com/svc/archive/v1/1945/4.json?api-key=${process.env.REACT_APP_NEWS_API_KEY}`)
     .then(res => res.json())
     .then(data => this.setState({ news: data }));
   }
