@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div data-test="component-app">
         <h1 data-test="title-header">This is a news Application</h1>
-
+        
         <NewsContainer />
       </div>
     </div>
